@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28531.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlEncryptor.API", "UrlEncryptor.API\UrlEncryptor.API.csproj", "{38F27B7A-68E3-447B-BCE3-BC424F4B59BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlEncryptor.Data", "UrlEncryptor.Data\UrlEncryptor.Data.csproj", "{0DF5A79E-0B61-4AB9-A603-4B27C3DCE899}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38F27B7A-68E3-447B-BCE3-BC424F4B59BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F27B7A-68E3-447B-BCE3-BC424F4B59BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F27B7A-68E3-447B-BCE3-BC424F4B59BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F27B7A-68E3-447B-BCE3-BC424F4B59BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF5A79E-0B61-4AB9-A603-4B27C3DCE899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF5A79E-0B61-4AB9-A603-4B27C3DCE899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF5A79E-0B61-4AB9-A603-4B27C3DCE899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF5A79E-0B61-4AB9-A603-4B27C3DCE899}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {846D7B3C-6106-4E17-BBEC-CE0896EED676}
+	EndGlobalSection
+EndGlobal
