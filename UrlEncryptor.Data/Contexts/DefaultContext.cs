@@ -15,7 +15,7 @@ namespace UrlEncryptor.Data.Contexts
 
 		protected override void OnConfiguring(DbContextOptionsBuilder options)
 		{
-			options.UseSqlServer(_configuration.GetConnectionString("DbConnectionString"));
+			options.UseSqlServer(_configuration.GetConnectionString("DB"));
 		}
 	}
 }
